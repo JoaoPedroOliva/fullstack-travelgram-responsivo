@@ -1,0 +1,18 @@
+header {
+  background-color: var(--surface-color);
+  & #logo {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+  }
+
+  & nav {
+    margin-left: auto;
+
+    gap: 1rem;
+  }
+  & img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

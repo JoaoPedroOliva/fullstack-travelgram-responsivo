@@ -55,6 +55,7 @@
   }
 
   .even-columns {
-    grid-template-columns: repeat(4, 17.875rem);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }
