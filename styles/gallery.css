@@ -1,0 +1,17 @@
+#gallery {
+  & img {
+    width: 328px;
+    height: 328px;
+  }
+}
+
+@media (width >= 80em) {
+  #gallery {
+    grid-template-columns: repeat(4, 1fr);
+
+    & img {
+      width: 286px;
+      height: 286px;
+    }
+  }
+}
