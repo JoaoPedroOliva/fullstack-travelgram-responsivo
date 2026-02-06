@@ -1,5 +1,19 @@
 #about {
+  position: relative;
+  background-color: var(--surface-color);
   --px-base: 2rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: var(--surface-color);
+    z-index: -1;
+  }
 
   & img:nth-child(1) {
     width: 7.5rem;

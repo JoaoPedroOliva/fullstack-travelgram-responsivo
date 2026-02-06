@@ -79,7 +79,6 @@ html {
   font-size: var(--fs-base);
   line-height: 1.7;
   color: var(--text-color-primary);
-  background-color: var(--surface-color);
   max-width: 1280px;
 }
 
