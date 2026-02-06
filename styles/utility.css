@@ -18,6 +18,10 @@
   display: flex;
 }
 
+.gap-0\.5 {
+  gap: 0.5rem;
+}
+
 .gap-1 {
   gap: 1rem;
 }
@@ -36,7 +40,6 @@
 
 .even-columns {
   display: grid;
-  gap: 1rem;
 }
 
 .container {
@@ -55,7 +58,6 @@
   }
 
   .even-columns {
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-template-columns: auto 1fr;
   }
 }

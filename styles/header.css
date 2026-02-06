@@ -1,5 +1,9 @@
 header {
   background-color: var(--surface-color);
+
+  & h1 {
+    color: var(--brand-color);
+  }
   & #logo {
     width: 2rem;
     height: 2rem;
